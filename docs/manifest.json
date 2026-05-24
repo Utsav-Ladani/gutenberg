@@ -1650,6 +1650,12 @@
 		"parent": "packages"
 	},
 	{
+		"title": "@wordpress/dependency-extraction-rspack-plugin",
+		"slug": "packages-dependency-extraction-rspack-plugin",
+		"markdown_source": "../packages/dependency-extraction-rspack-plugin/README.md",
+		"parent": "packages"
+	},
+	{
 		"title": "@wordpress/dependency-extraction-webpack-plugin",
 		"slug": "packages-dependency-extraction-webpack-plugin",
 		"markdown_source": "../packages/dependency-extraction-webpack-plugin/README.md",
@@ -2019,6 +2025,12 @@
 		"title": "@wordpress/router",
 		"slug": "packages-router",
 		"markdown_source": "../packages/router/README.md",
+		"parent": "packages"
+	},
+	{
+		"title": "@wordpress/rspack",
+		"slug": "packages-rspack",
+		"markdown_source": "../packages/rspack/README.md",
 		"parent": "packages"
 	},
 	{

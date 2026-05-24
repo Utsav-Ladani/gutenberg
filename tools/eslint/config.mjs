@@ -545,7 +545,7 @@ export default dedupePlugins( [
 
 	// Override: CLI/bin/env files — allow console.
 	{
-		files: [ '**/{bin,scripts,tools}/**', 'packages/env/**' ],
+		files: [ '**/{bin,scripts,tools}/**', 'packages/env/**', 'packages/rspack/**' ],
 		rules: {
 			'no-console': 'off',
 		},

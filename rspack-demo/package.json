@@ -1,0 +1,21 @@
+{
+	"name": "rspack-demo",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"build:rspack": "wp-rspack build",
+		"build:scripts": "wp-scripts build",
+		"start:rspack": "wp-rspack start",
+		"start:scripts": "wp-scripts start",
+		"start:hot:rspack": "wp-rspack start --hot",
+		"start:hot:scripts": "wp-scripts start --hot"
+	},
+	"devDependencies": {
+		"@wordpress/rspack": "file:../packages/rspack",
+		"@wordpress/scripts": "file:../packages/scripts",
+		"@wordpress/token-list": "^3.46.0"
+	},
+	"author": "",
+	"license": "ISC",
+	"description": ""
+}
